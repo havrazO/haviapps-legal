@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – Ofenplaner</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65; max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 5rem;
+    background: #fff8f5; color: #211a15;
+  }
+  @media (prefers-color-scheme: dark) { body { background: #191210; color: #ede0da; } }
+  h1 { font-size: 1.75rem; line-height: 1.25; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
+  .stand { color: #6b5b52; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) { .stand { color: #b7a79d; } }
+  .kasten { border-left: 4px solid #8f4a00; padding: .1rem 1rem; margin: 1.5rem 0; }
+  @media (prefers-color-scheme: dark) { .kasten { border-color: #ffb77c; } }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid #d7c3b7; vertical-align: top; }
+  @media (prefers-color-scheme: dark) { th, td { border-color: #52443b; } }
+  code { background: #f3dfd2; padding: .1rem .3rem; border-radius: .2rem; }
+  @media (prefers-color-scheme: dark) { code { background: #312825; } }
+</style>
+</head>
+<body>
+
+<h1>Datenschutzerklärung für die App „Ofenplaner“</h1>
+<p class="stand">Stand: 4. September 2026 · Gilt für die Android-App <code>dev.haviapps.ovenplanner</code></p>
+
+<div class="kasten">
+<p><strong>Kurz gesagt:</strong> Die App erhebt keine personenbezogenen Daten, sendet nichts an
+Server und hat keinen Internetzugriff. Alles, was Sie eingeben, bleibt auf Ihrem Gerät.</p>
+</div>
+
+<h2>1. Verantwortlicher</h2>
+<p>
+  Havraz Othman
+  <br>E-Mail: <a href="mailto:havio.apps@gmail.com">havio.apps@gmail.com</a>
+</p>
+
+<h2>2. Welche Daten die App verarbeitet</h2>
+<p>
+  Die App verarbeitet ausschließlich das, was Sie selbst eingeben: Namen von Gerichten und
+  Arbeitsschritten, Zeitangaben sowie die Ausstattung Ihrer Küche. Diese Angaben werden
+  <strong>ausschließlich lokal</strong> im privaten Speicherbereich der App abgelegt
+  (Datei <code>plan.json</code>).
+</p>
+<p>
+  Dieser Bereich ist für andere Apps nicht lesbar. Beim Deinstallieren der App löscht Android ihn
+  vollständig. Es gibt keine Sicherung in einer Cloud.
+</p>
+
+<h2>3. Was die App <em>nicht</em> tut</h2>
+<ul>
+  <li>Keine Internetverbindung – die App besitzt die Berechtigung <code>INTERNET</code> nicht.</li>
+  <li>Keine Benutzerkonten, keine Anmeldung, keine Registrierung.</li>
+  <li>Keine Werbung, keine Analyse-, Tracking- oder Absturzberichtsdienste.</li>
+  <li>Keine Weitergabe von Daten an Dritte – es werden keine Daten übertragen.</li>
+  <li>Keine Standortdaten, keine Kontakte, kein Zugriff auf Fotos oder Dateien.</li>
+</ul>
+
+<h2>4. Berechtigungen und wozu sie dienen</h2>
+<table>
+  <tr><th>Berechtigung</th><th>Wofür</th><th>Daten?</th></tr>
+  <tr>
+    <td><code>SCHEDULE_EXACT_ALARM</code></td>
+    <td>Erinnerungen zum richtigen Zeitpunkt stellen. Sie erteilen sie selbst; ohne sie bleibt die
+        App vollständig nutzbar, nur ohne Erinnerungen.</td>
+    <td>nein</td>
+  </tr>
+  <tr>
+    <td><code>POST_NOTIFICATIONS</code></td>
+    <td>Die Erinnerung anzeigen. Wird beim ersten Start erfragt und kann abgelehnt werden.</td>
+    <td>nein</td>
+  </tr>
+  <tr>
+    <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+    <td>Gestellte Erinnerungen nach einem Neustart des Geräts wiederherstellen – Android verwirft
+        sie beim Hochfahren.</td>
+    <td>nein</td>
+  </tr>
+  <tr>
+    <td><code>FOREGROUND_SERVICE</code></td>
+    <td>Solange Erinnerungen gestellt sind, zeigt die App eine dauerhafte Benachrichtigung mit dem
+        Countdown bis zum nächsten Handgriff. Sie verschwindet, sobald die Erinnerungen gelöscht
+        sind oder der letzte Schritt erreicht ist.</td>
+    <td>nein</td>
+  </tr>
+  <tr>
+    <td><code>FOREGROUND_SERVICE_SPECIAL_USE</code></td>
+    <td>Ab Android 14 muss ein solcher Dienst seinen Zweck angeben. Diese Berechtigung ist die
+        Angabe selbst – sie schaltet keine zusätzliche Funktion frei.</td>
+    <td>nein</td>
+  </tr>
+</table>
+<p>Keine dieser Berechtigungen erhebt, überträgt oder speichert personenbezogene Daten.</p>
+
+<h2>5. Rechtsgrundlage</h2>
+<p>
+  Da keine personenbezogenen Daten im Sinne von Art. 4 Nr. 1 DSGVO durch den Verantwortlichen
+  verarbeitet werden, ist keine Rechtsgrundlage nach Art. 6 DSGVO erforderlich. Die lokal auf Ihrem
+  Gerät gespeicherten Eingaben unterliegen allein Ihrer Kontrolle.
+</p>
+
+<h2>6. Ihre Rechte</h2>
+<p>
+  Ihnen stehen die Rechte aus Art. 15 bis 21 DSGVO zu – Auskunft, Berichtigung, Löschung,
+  Einschränkung, Datenübertragbarkeit und Widerspruch. Da wir keine Daten über Sie speichern,
+  können wir dazu allerdings nichts herausgeben oder löschen. Ihre Eingaben löschen Sie selbst,
+  indem Sie die App deinstallieren oder ihre Daten in den Android-Einstellungen entfernen.
+</p>
+<p>
+  Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
+</p>
+
+<h2>7. Bezug über Google Play</h2>
+<p>
+  Der Bezug der App erfolgt über Google Play. Dabei verarbeitet Google Daten in eigener
+  Verantwortung – etwa zum Konto und zum Download. Darauf haben wir keinen Einfluss. Es gilt die
+  <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a>.
+</p>
+
+<h2>8. Änderungen</h2>
+<p>
+  Ändert sich die App so, dass diese Erklärung nicht mehr zutrifft, wird sie vorher angepasst. Das
+  Datum oben zeigt den aktuellen Stand.
+</p>
+
+<h2>9. Kontakt</h2>
+<p>
+  Fragen zum Datenschutz: <a href="mailto:havio.apps@gmail.com">havio.apps@gmail.com</a>
+</p>
+
+</body>
+</html>
