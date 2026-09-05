@@ -1,9 +1,11 @@
-# Rechtstexte der HaviApps-Produkte
+# HaviApps – Rechtstexte
 
-Dieses Repository ist **öffentlich**, weil Google Play für jede App eine Datenschutzerklärung
-unter einer ohne Anmeldung erreichbaren URL verlangt – auch bei Apps, die keine Daten erheben.
+Datenschutzerklärungen zu den Apps von HaviApps.
 
-**Was hier liegt:** ausschließlich Rechtstexte als statische Seiten, ausgeliefert über GitHub Pages.
+## Ofenplaner
 
-**Was hier bewusst nicht liegt:** Produktcode, Schlüssel, Secrets, personenbezogene Daten Dritter.
-Die Entwicklung findet in einem getrennten, privaten Repository statt.
+- [Datenschutzerklärung](https://havrazo.github.io/haviapps-legal/ofenplaner/datenschutz.html)
+
+## Kontakt
+
+havio.apps@gmail.com
