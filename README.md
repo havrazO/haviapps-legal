@@ -2,7 +2,7 @@
 
 Datenschutzerklärungen zu den Apps von HaviApps.
 
-## Ofenplaner
+## Punktgar (vormals Ofenplaner)
 
 - [Datenschutzerklärung](https://havrazo.github.io/haviapps-legal/ofenplaner/datenschutz.html)
 
